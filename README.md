@@ -41,15 +41,15 @@ Permitir que os participantes se inscrevam no evento através de uma interface f
 
 📁 Estrutura do Projeto
 
-formulario-inscricao-workshop/ 
+formulario-inscricao-workshop/
 ├── frontend/
 │   ├── index.html # Estrutura do formulário
 │   ├── style.css # Estilos e design
-│   └── script.js # Lógica de validação e comunicação assíncrona com a API 
-├── backend/ 
-│   ├── db.php # Conexão com o banco de dados PostgreSQL 
-│   └── submit.php # API que processa e insere os dados no banco 
-├── README.md 
+│   └── script.js # Lógica de validação e comunicação assíncrona com a API
+├── backend/
+│   ├── db.php # Conexão com o banco de dados PostgreSQL
+│   └── submit.php # API que processa e insere os dados no banco
+├── README.md
 └── .gitignore
 ---
 
