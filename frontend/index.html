@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário worshop web</title>
+    <title>Formulário de Inscrição</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <h1>Inscrição para o Workshop</h1>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="name">Nome Completo:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="workshop">Oficina Desejada:</label>
+                <select id="workshop" name="workshop" required>
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="frontend">Frontend</option>
+                    <option value="backend">Backend</option>
+                    <option value="fullstack">Fullstack</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="experience">Nível de Experiência:</label>
+                <select id="experience" name="experience" required>
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="iniciante">Iniciante</option>
+                    <option value="intermediario">Intermediário</option>
+                    <option value="avancado">Avançado</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="observations">Observações Adicionais:</label>
+                <textarea id="observations" name="observations" rows="4"></textarea>
+            </div>
+            <button type="submit">Inscrever-se</button>
+        </form>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
